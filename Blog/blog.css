@@ -1,0 +1,211 @@
+body{
+	background-image: url(../img/backk.jpg) !important;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+    backface-visibility:hidden;
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+	
+	margin-left:85px;
+	margin-top:-10px;
+	overflow:hidden;
+	position:absolute;
+   }
+
+.wrapper{
+	width:1340px;
+	height:100px;
+	margin:0 auto;
+	
+}
+
+
+
+
+.navbar{
+	background:#F60;
+	height:50px;
+	width:1340px;
+	top: 0;
+	position: fixed;
+	overflow: hidden;
+}
+.navbar a{
+	font-family: 'trebuchet ms', sans-serif;
+	color:black;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+	margin-bottom:-10%;
+
+}
+
+.active{
+  color:white !important;
+}
+
+.navbar a:hover
+{ color:#26ABBD;
+  text-decoration: none;}
+  
+.navbar li{
+	display:inline;
+	padding:0 20px 0 20px;
+	
+
+}
+.navbar nav{
+	float:right;
+	margin-right:5%;
+}
+
+
+h2{
+    color: white;
+}
+
+
+
+
+.cont {
+    position: relative;
+    width: 400px;
+  }
+  
+  .image {
+    display: block;
+    width:350px;
+    height: 300px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    width: 350px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .cont:hover .overlay {
+    opacity: 0.5;
+  }
+  
+  .text {
+    color:black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+  .sec_one{
+      margin-left: 100px;
+      position: absolute;
+  }
+
+
+  .sec_two{
+      margin-left: 500px;
+      position: absolute;
+  }
+
+.sec_three{
+    margin-left: 900px;
+    position: absolute;
+}
+
+
+.sec_four{
+    margin-top: 350px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+
+.sec_five{
+    margin-top: 350px;
+    margin-left: 500px;
+    position: absolute;
+}
+
+.sec_six{
+    margin-top: 350px;
+  margin-left: 900px;
+  position: absolute;
+}
+
+.sec_seven{
+   margin-top: 700px;
+   margin-left: 100px;
+  position: absolute;
+  
+}
+
+.sec_eight{
+   margin-top: 700px;
+  margin-left: 500px;
+  position: absolute;
+}
+
+.sec_nine{
+    margin-top: 700px;
+  margin-left: 900px;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+.footer{
+        height:200px;
+        width:1340px;
+        background:#F60;
+        margin-top: 80%;
+
+        
+    }
+    
+    
+    #footer
+    { width: 100%;
+      font-family: 'trebuchet ms', sans-serif;
+      font-size: 100%;
+      height: 80px;
+      padding: 28px 0 5px 0;
+      text-align: center; 
+      background: transparent url(pattern.png) repeat;
+      color:black;}
+    
+    #footer p
+    { line-height: 1.7em;
+      padding: 0 0 10px 0;}
+    
+    #footer a
+    { color:black;
+      text-decoration: none;}
+    
+    #footer a:hover
+    { color:#26ABBD;
+      text-decoration: none;}
+
+
+   
